@@ -1,4 +1,4 @@
-package com.cm.thread.ConcurrentCollections;
+package com.cm.thread.ConcurrentCollections.Day1;
 
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
@@ -6,6 +6,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 无界Queue
  * @author chengawu
  * @date 1/2/2019 5:37 PM
  */

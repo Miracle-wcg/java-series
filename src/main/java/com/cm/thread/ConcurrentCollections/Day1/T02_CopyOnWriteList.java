@@ -1,4 +1,4 @@
-package com.cm.thread.ConcurrentCollections;
+package com.cm.thread.ConcurrentCollections.Day1;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
