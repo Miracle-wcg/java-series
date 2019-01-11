@@ -5,8 +5,10 @@ import java.util.List;
 
 public class Demo1 {
     public static void main(String[] args) {
-//        final List<String> strList = new ArrayList<>();
-//        strList.add("aaa");
-//        strList.add("bbb");
+        String s1 = "java";
+        StringBuffer s2 = new StringBuffer("123");
+
+        System.out.println(s1 == s1.intern());
+        System.out.println(s2.toString() == s2.toString().intern());
     }
 }

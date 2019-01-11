@@ -11,11 +11,11 @@ public class RedisTest {
         System.out.println("Server running:" + jedis.ping());
 
         //String
-        System.out.println("********** String Test ****************");
+        System.out.println("********** String Run ****************");
         jedis.set("key", "testKey");
         System.out.println("Redis Saved String;" + jedis.get("key"));
 
-        System.out.println("********** List Test ****************");
+        System.out.println("********** List Run ****************");
         jedis.lpush("site-list", "Google");
         jedis.lpush("site-list", "Oracle");
         jedis.lpush("site-list", "Baidu");
