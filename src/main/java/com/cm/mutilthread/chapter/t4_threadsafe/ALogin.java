@@ -1,4 +1,4 @@
-package com.cm.mutilThread.Chapter01.t4_threadsafe;
+package com.cm.mutilthread.chapter.t4_threadsafe;
 
 /**
  * @author chengawu

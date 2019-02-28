@@ -1,4 +1,4 @@
-package com.cm.mutilThread.Chapter01.samenum;
+package com.cm.mutilthread.chapter.samenum;
 
 /**
  * @author chengawu

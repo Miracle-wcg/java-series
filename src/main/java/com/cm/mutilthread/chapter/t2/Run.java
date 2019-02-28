@@ -1,4 +1,4 @@
-package com.cm.mutilThread.Chapter01.t2;
+package com.cm.mutilthread.chapter.t2;
 
 /**
  * @author chengawu
