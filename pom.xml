@@ -24,7 +24,7 @@
             <version>2.9.0</version>
         </dependency>
     </dependencies>
-    //fix dev tool reloaded JDK version config
+<!--    fix dev tool reloaded JDK version config-->
     <build>
         <plugins>
             <plugin>
