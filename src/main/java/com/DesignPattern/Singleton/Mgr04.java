@@ -1,4 +1,4 @@
-package com.cm.DesignPattern;
+package com.DesignPattern.Singleton;
 
 public class Mgr04 {
     private static Mgr04 INSTANCE;

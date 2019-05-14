@@ -1,4 +1,4 @@
-package com.cm.DesignPattern;
+package com.DesignPattern.Singleton;
 
 public class Mgr06 {
     private static volatile Mgr06 INSTANCE;
