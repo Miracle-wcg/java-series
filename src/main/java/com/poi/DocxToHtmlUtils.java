@@ -37,14 +37,13 @@ public class DocxToHtmlUtils {
         htmlSettings.setUserCSS(userCSS); // 用户自己定义的 CSS
 
 
-
         OutputStream os = new FileOutputStream(htmlPath);
         Docx4jProperties.setProperty("docx4j.Convert.Out.HTML.OutputMethodXML", true);
         Docx4J.toHTML(htmlSettings, os, Docx4J.FLAG_EXPORT_PREFER_XSL);
 
         //删除图片路径
-//        File firstImagePath = new File(imageFilePath);
-//        FileUtils.deleteDirectory(firstImagePath);
+        File firstImagePath = new File(imageFilePath);
+        FileUtils.deleteDirectory(firstImagePath);
     }
 
     public static void main(String[] args) throws Exception {
