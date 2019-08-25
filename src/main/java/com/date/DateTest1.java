@@ -8,6 +8,12 @@ import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
 /**
+ *
+ * 日期格式是不同步的。
+ * 建议为每个线程创建独立的格式实例。
+ * 如果多个线程同时访问一个格式，则它必须是外部同步的。
+ *（当我们使用实例变量时，应始终检查其是否是一个线程安全类。）
+ *
  * @Author Miracle.wcg
  * @Date 2019-08-25 15:18
  */
