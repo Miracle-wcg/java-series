@@ -130,6 +130,12 @@
             <version>1.11.3</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.3.1</version>
+        </dependency>
     </dependencies>
     <!--fix dev tool reloaded JDK version config-->
     <build>
