@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>basic-core</artifactId>
+
+    <properties>
+        <poi-verison>3.14</poi-verison>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>com.google.zxing</groupId>
