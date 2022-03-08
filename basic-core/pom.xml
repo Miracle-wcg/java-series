@@ -12,7 +12,7 @@
     <artifactId>basic-core</artifactId>
 
     <properties>
-        <poi-verison>3.14</poi-verison>
+        <poi-verison>5.2.1</poi-verison>
     </properties>
     <dependencies>
         <dependency>
